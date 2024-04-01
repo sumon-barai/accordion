@@ -1,0 +1,30 @@
+body {
+  background-color: #c8d6e5;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordian {
+  width: 800px;
+  border: 2px solid black;
+  padding: 20px;
+
+  border-radius: 20px;
+}
+
+.accordian-child {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.accordian-child button {
+  background-color: #c8d6e5;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
